@@ -1,0 +1,385 @@
+﻿body {
+    font-family:'Open Sans', sans-serif;
+    font-size:14px;
+   
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Open Sans', sans-serif;
+}
+
+
+.text-center {
+    text-align:center;
+}
+
+h2 {
+    line-height:50px;
+    color:#E91C1C;
+}
+h3 {
+    line-height:30px;
+    padding-bottom:20px;
+}
+h4 {
+padding-top: 15px;
+line-height: 40px;
+padding-bottom: 0px;
+font-size: 22px;
+font-weight: 900;
+
+}
+
+p {
+    font-weight:300;
+    line-height:25px;
+    padding-bottom:15px;
+	text-align:justify;
+}
+
+.space-free {
+    height:100px;
+}
+
+section {
+    padding-top:25px;
+    margin-top:20px;
+}
+.grid-pad-bottom {
+    padding-bottom:30px;
+}
+
+.form-control {
+        background-color: rgba(255, 255, 255, 0);
+}
+
+.label-danger {
+font-size: 18px;
+}
+/*==================Head Section Styles===============*/
+.package {
+    margin-top:35px;
+}
+.package_title{
+	margin-top:-14px;
+	width:280px;
+	color:red;
+} 
+.adjst{
+color:red;
+}
+
+
+
+.head-main {
+    font-size:50px ;
+    font-weight:900;
+    border:5px outset  #fff;
+    padding:15px;
+    text-transform:uppercase;
+    
+}
+
+.head-last {
+     margin-top:70px;
+    font-size:18px ;
+    font-weight:900;
+    padding:5px 20px 20px 20px;
+    border:1px dotted #fff;
+    padding:5px;
+}
+
+
+/* ===========================================================
+NAVBAR section STYLE============================*/
+.navbar {
+	font-size: 16px;
+	color:white;
+}
+
+.navbar-inverse {
+background:white;
+min-height: 60px;
+//padding-top: 5px;
+
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+background-color: #FFFFFF;
+}
+
+.navbar-inverse .navbar-brand {
+	color: #FFFFFF;
+	font-weight: normal;
+	font-size: 1.1em;
+    font-weight:600;
+	letter-spacing: 2px;
+	border:1px solid #fff;
+	
+}
+.navbar-inverse :hover .navbar-brand:hover {
+	color: #FFFFFF;	
+}
+.navbar-inverse .navbar-nav > li > a {
+color:#FFFFFF;
+//border:1px solid #000;
+}
+.navbar-inverse {
+border-color: #FFFFFF;
+color:white;
+
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+background: #FFFFFF;
+color:white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+color: black;
+background-color: #FC7700;
+border:1px solid #60B0E6;
+padding:15px 15px;
+//margin-top:5px;
+}
+.navbar-toggle {
+    background-color: orange;
+}
+/*==========================================
+	ABOUT SECTION STYLE
+============================================*/
+.about {
+padding-top: 6%;
+}
+.about-head h3 {
+color: #60B0E6;
+font-size: 1.97em;
+}
+.about-grids h4 {
+font-size: 1.4em;
+font-weight: 500;
+color: #343E46;
+}
+.about-head img{
+margin:1em 1em 0 0;
+}
+.about-head span{
+background:rgba(128, 128, 128, 0.41);
+width:5.5%;
+height:1px;
+display: inline-block;
+vertical-align: text-bottom;
+}
+.about-head span:nth-child(2){
+margin-right:1em;
+}
+.about-grids{
+margin-top:3.5em;
+}
+.about-grids h4 span{
+background: url("../images/about-icons.png") no-repeat 0 0;
+width: 46px;
+height: 37px;
+display: inline-block;
+vertical-align: middle;
+margin-right: 0.5em;
+margin-top: 0.7em;
+cursor:pointer;
+}
+.about-grids h4 span.icon1{
+background-position:0px 0px;
+}
+.about-grids h4 span.icon1:hover{
+background-position:0px -48px;
+}
+.about-grids h4 span.icon2{
+background-position:-405px 0;
+}
+.about-grids h4 span.icon2:hover{
+background-position:-405px 0;
+}
+.about-grids h4 span.icon3{
+background-position:-810px 1px;
+}
+.about-grids h4 span.icon3:hover{
+background-position:-809px -48px;
+}
+.about-grids p {
+margin-left: 4em;
+width: 87%;
+line-height: 23px;
+color: #9EA4A9;
+}
+
+/*==========================================
+	TOP TOUR HEAD GALLERY SECTION2 STYLE
+============================================*/
+.top-tours-head {
+padding-top:3%;
+}
+.top-tours-head h3 {
+color: #60B0E6;
+font-size: 1.97em;
+}
+.top-tours-head img{
+margin:1em 1em 0 0;
+}
+.top-tours-head span{
+background:rgba(128, 128, 128, 0.41);
+width:5.5%;
+height:1px;
+display: inline-block;
+vertical-align: text-bottom;
+}
+.top-tours-head span:nth-child(2){
+margin-right:1em;
+}
+.top-tours-head p {
+width: 84%;
+margin: 0 auto;
+padding-top:2%;
+font-size:1.17em;
+line-height: 23px;
+color: #90979D;
+}
+#filters {
+	margin: 3% 0;
+	padding-left:20px;
+	list-style: none;
+	text-align: left;
+}
+.nav-content .panel-headerArea{
+    background-color:#085985;
+    color:#fff;
+    padding: 3px;
+    margin-left:  15px;
+    margin-right: 15px;
+    margin-bottom: -15px;
+}
+.nav-content nav{
+    list-style-type: none;
+}
+.nav-content nav  li a{
+    text-decoration: none;
+    border-width:500px;
+    background-color: #368dba;
+    color:white;
+    padding: 10px 14px;
+    display: block;
+    border:1px solid #eee;
+}
+.nav-content nav  li:hover a{
+    background: #003399;
+    color:orange;
+}
+
+.item .thumbnail{
+background-color: #999;
+border: 1px solid #CCCCCC;
+}
+.package_title{
+    padding-left:15px;
+    font-family:arial;
+    color:black;
+    font-size:15px;
+    font-weight:bold;
+    background-color:#085985;
+    text-align:center;
+    color:#fff;
+    padding: 1px;
+}
+.addvertise_title{
+    margin-top:-14px;
+    color:red;
+    font-size:18px;
+    font-weight:bold;
+}
+.addvertise_title p{
+    color:#000000;
+    font-size:18px;
+    font-weight:bold;
+}
+.package{
+
+    padding-top:25px;
+
+
+}
+.caption p{
+    //color: #660066;
+    color: #990033;
+	height:6px;
+	
+}
+.formTitle_heading{
+    padding:5px;  
+    color:#FFFFFF; 
+    border-radius:3px 3px 0 0;  
+    box-shadow:0 1px #54a5cf;
+    font-size:16px; 
+    text-transform:uppercase; 
+    text-align:center; 
+    clear:both; 
+    margin-bottom:5px; 
+    border-bottom:1px solid #1e709a;
+    background-color:#085985;
+}
+.inputstyle{
+    width:160px;
+    height:25px;
+    border:1px solid#999;
+    margin:5px 0px 5px 0px;
+    transition: all 1s ease 0s;
+}
+.title  h2 a, .title  h2 a:link, .title  h2 a:visited  {
+	background-color: transparent;
+	/*font-weight:bold;*/
+	}
+.title  h2 a:hover  {
+	text-decoration:underline;
+	background-color: transparent;
+	/*font-weight:bold;*/
+	}	
+
+
+.comm a:hover{
+	color:#003366;
+}
+	
+.entry a:hover {
+	color:#000;
+	background-color: transparent;
+	text-decoration: none;
+}
+/*=========== Media Queries===================*/
+@media screen and (max-width:488px){
+    [class*='col-']{      
+        width: 100%;
+    }
+}
+
+@media all and (max-width:640px) and (min-width:381px) {
+    .head-main { 
+        font-size:28px ;
+    }
+}
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main { 
+        font-size:24px ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

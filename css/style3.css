@@ -1,0 +1,143 @@
+div{
+    font: 16px/250px Arial; 
+    width: 245px; 
+    height: 250px;
+    float: left;
+    margin: 10px; 
+    display: block;
+    text-align: center;
+    background: $mainColor;
+    color: #fff; 
+  }
+   
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Helvetica;
+  background-color: #F4F2E9;
+}
+
+.container { height: 100%; }
+
+#mainHeader { background-color: #A3C5C3;}
+
+.logo img{
+  width: 200px;
+  height: 194px;
+}
+
+nav {
+  height: 50px;
+  width: 100%;
+  background-color: #333D51;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.navbar li {
+  float: left;
+  list-style-type: none;
+}
+
+.navbar li a {
+  color: #fff;
+  font-size: 16px;
+  position: relative;
+  line-height: 3em;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+  text-decoration: underline;
+}
+
+.navbar .active a {
+  text-decoration: underline;
+}
+#contentContainer {
+  width: 980px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+}
+
+.category-menu h3 {
+  text-transform: uppercase;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.category-menu {
+  float: left;
+  margin-right: 175px;
+}
+
+.category-button {
+  display: block;
+  background-color: #F4F2E9;
+  border:none;
+  border-bottom: 3px solid #333D51;
+  font-size: 18px;
+  height: 40px;
+  width: 130px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.category-button:hover {
+  text-decoration: underline;
+  background-color: #D2AC2B;
+}
+
+.category-button--active {
+  cursor: default !important;
+}
+
+#ProductContent {
+  width: 656px;
+  float: left;
+}
+
+.category-title {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.product { 
+  list-style-type: none;
+  margin: 40px 0;
+  background: #dcdbdb;
+}
+
+.product-image{
+  width: 200px;
+  height: 133px;
+  display: inline-block;
+}
+
+.product-detail {
+  display: inline-block;
+  width: 50%;  
+}
+
+.product-title{ 
+  display: block;
+  padding-bottom:5px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.product-price { 
+  display: block;
+  font-size: 12px;
+  font-weight:900;
+  padding-top:5px;
+}
